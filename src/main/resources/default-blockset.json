@@ -1,0 +1,134 @@
+{
+    "name": "default-plugin-blockset",
+    "colorSpace": "srgb",
+    "blocks": [
+        {
+            "material": "BLACK_CONCRETE",
+            "rgb": [
+                0.05,
+                0.05,
+                0.05
+            ]
+        },
+        {
+            "material": "BLACK_WOOL",
+            "rgb": [
+                0.09,
+                0.09,
+                0.09
+            ]
+        },
+        {
+            "material": "GRAY_TERRACOTTA",
+            "rgb": [
+                0.35,
+                0.31,
+                0.27
+            ]
+        },
+        {
+            "material": "GRAY_CONCRETE",
+            "rgb": [
+                0.31,
+                0.33,
+                0.35
+            ]
+        },
+        {
+            "material": "GRAY_WOOL",
+            "rgb": [
+                0.42,
+                0.42,
+                0.42
+            ]
+        },
+        {
+            "material": "LIGHT_GRAY_TERRACOTTA",
+            "rgb": [
+                0.53,
+                0.47,
+                0.42
+            ]
+        },
+        {
+            "material": "LIGHT_GRAY_CONCRETE",
+            "rgb": [
+                0.58,
+                0.58,
+                0.58
+            ]
+        },
+        {
+            "material": "LIGHT_GRAY_WOOL",
+            "rgb": [
+                0.69,
+                0.69,
+                0.69
+            ]
+        },
+        {
+            "material": "WHITE_TERRACOTTA",
+            "rgb": [
+                0.82,
+                0.77,
+                0.70
+            ]
+        },
+        {
+            "material": "WHITE_WOOL",
+            "rgb": [
+                0.92,
+                0.92,
+                0.92
+            ]
+        },
+        {
+            "material": "RED_CONCRETE",
+            "rgb": [
+                0.56,
+                0.13,
+                0.13
+            ]
+        },
+        {
+            "material": "GREEN_CONCRETE",
+            "rgb": [
+                0.29,
+                0.42,
+                0.23
+            ]
+        },
+        {
+            "material": "YELLOW_CONCRETE",
+            "rgb": [
+                0.94,
+                0.70,
+                0.20
+            ]
+        },
+        {
+            "material": "BLUE_CONCRETE",
+            "rgb": [
+                0.18,
+                0.31,
+                0.73
+            ]
+        },
+        {
+            "material": "CYAN_CONCRETE",
+            "rgb": [
+                0.08,
+                0.50,
+                0.55
+            ]
+        },
+        {
+            "material": "PURPLE_CONCRETE",
+            "rgb": [
+                0.45,
+                0.26,
+                0.64
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+name: YART Quality Gate
+
+on:
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+
+      - name: Run lint, tests, and full coverage gate
+        run: ./gradlew --no-daemon lint prCoverageCheck
+
+      - name: Install diff-cover
+        run: python -m pip install --upgrade pip diff-cover
+
+      - name: Enforce patch coverage >= 70%
+        run: |
+          diff-cover build/reports/jacoco/test/jacocoTestReport.xml \
+            --compare-branch=origin/main \
+            --fail-under=70

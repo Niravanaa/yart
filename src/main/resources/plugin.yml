@@ -1,0 +1,14 @@
+name: YetAnotherRayTracer
+version: "${version}"
+main: com.yart.YetAnotherRayTracerPlugin
+api-version: "1.21"
+authors: [YART Team]
+commands:
+  raytrace:
+    description: Load OBJ models and render them into a block-display screen.
+    usage: /raytrace <load|start|size|spin|lighting|wireframe|camera|stop|reset|controls|palette>
+    permission: yart.use
+permissions:
+  yart.use:
+    description: Allows using the raytrace command.
+    default: op
